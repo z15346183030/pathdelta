@@ -1,0 +1,8 @@
+{
+  "service": "billing",
+  "port": 8443,
+  "retries": 3,
+  "features": ["alpha", "beta", "dark-mode", "gamma"],
+  "limits": {"rpm": 120, "burst": 20, "window": 60},
+  "region": "cn-north"
+}
